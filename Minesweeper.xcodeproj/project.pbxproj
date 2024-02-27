@@ -12,6 +12,10 @@
 		89303FD82B8815E900D7C03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89303FD72B8815E900D7C03A /* Assets.xcassets */; };
 		89303FDB2B8815E900D7C03A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89303FDA2B8815E900D7C03A /* Preview Assets.xcassets */; };
 		89303FE22B8817A400D7C03A /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89303FE12B8817A400D7C03A /* GameViewModel.swift */; };
+		89670F1A2B8D4097005E3F8B /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89670F192B8D4097005E3F8B /* MainMenu.swift */; };
+		89670F1C2B8D5034005E3F8B /* HighScoresManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89670F1B2B8D5034005E3F8B /* HighScoresManager.swift */; };
+		89670F202B8D53E5005E3F8B /* SettingsViewPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89670F1F2B8D53E5005E3F8B /* SettingsViewPopup.swift */; };
+		89670F222B8D59CE005E3F8B /* GlobalSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89670F212B8D59CE005E3F8B /* GlobalSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		89303FD72B8815E900D7C03A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89303FDA2B8815E900D7C03A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89303FE12B8817A400D7C03A /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		89670F192B8D4097005E3F8B /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		89670F1B2B8D5034005E3F8B /* HighScoresManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoresManager.swift; sourceTree = "<group>"; };
+		89670F1F2B8D53E5005E3F8B /* SettingsViewPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewPopup.swift; sourceTree = "<group>"; };
+		89670F212B8D59CE005E3F8B /* GlobalSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +61,14 @@
 		89303FD22B8815E800D7C03A /* Minesweeper */ = {
 			isa = PBXGroup;
 			children = (
+				89670F212B8D59CE005E3F8B /* GlobalSettings.swift */,
+				89670F1F2B8D53E5005E3F8B /* SettingsViewPopup.swift */,
+				89670F1B2B8D5034005E3F8B /* HighScoresManager.swift */,
 				89303FE12B8817A400D7C03A /* GameViewModel.swift */,
 				89303FD32B8815E800D7C03A /* MinesweeperApp.swift */,
 				89303FD52B8815E800D7C03A /* ContentView.swift */,
 				89303FD72B8815E900D7C03A /* Assets.xcassets */,
+				89670F192B8D4097005E3F8B /* MainMenu.swift */,
 				89303FD92B8815E900D7C03A /* Preview Content */,
 			);
 			path = Minesweeper;
@@ -142,7 +154,11 @@
 			files = (
 				89303FE22B8817A400D7C03A /* GameViewModel.swift in Sources */,
 				89303FD62B8815E800D7C03A /* ContentView.swift in Sources */,
+				89670F202B8D53E5005E3F8B /* SettingsViewPopup.swift in Sources */,
+				89670F222B8D59CE005E3F8B /* GlobalSettings.swift in Sources */,
+				89670F1C2B8D5034005E3F8B /* HighScoresManager.swift in Sources */,
 				89303FD42B8815E800D7C03A /* MinesweeperApp.swift in Sources */,
+				89670F1A2B8D4097005E3F8B /* MainMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
